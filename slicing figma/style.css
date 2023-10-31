@@ -1,0 +1,121 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Poppins:ital,wght@0,100;0,500;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* buah buahan */
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+.navbar .menu {
+    margin-left: 30%;
+}
+.navbar .menu ul li {
+    display: inline;
+    margin-right: 10%;
+    font-family: 'Montserrat', sans-serif;  
+}
+.navbar .menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.tulisan h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+.tulisan p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.tulisan button {
+    background:  #FB9100;
+    color: white;
+    padding: 25px 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.tulisan button:hover {
+    background-color: black;
+}
+.tulisan img {
+    margin-top: 50%;
+}
+/* akhir buah buahan */
+
+/* manggo */
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+.main .tulisan {
+    margin-left: 50px;
+    padding-top: 95px;
+}
+.main .gambar {
+    display: baseline;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin-left: 20%;
+}
+.main .tulisan p {
+    margin-top: 8px;
+}
+/* akhir manggo */
+
+/* eskrim */
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+    margin-right: 600px;
+}
+.about .tulisan{
+    margin-top: 40%;
+}
+.make {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 75px;
+}
+.make .tulisan {
+    margin-top: 30%;
+}
+.make .tulisan button:hover {
+    background-color: black;
+}
+.make .gambar {
+    position: relative;
+    display: contents;
+}
+.make .gambar .dot1 {
+    margin-left: 365px;
+    margin-top: 21%;
+}
+.make .gambar .dot2 {
+    margin-left: 157px;
+    margin-top: 15%;
+}
+.make .gambar .eskrim {
+    position: absolute;
+    margin-left: 60%;
+    padding-top: 67px;
+}
+/* akhir eskrim */

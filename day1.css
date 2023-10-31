@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+.kotak {
+    padding: 20px;
+    background-color:whitesmoke;
+    border-radius: 20px;
+   
+}
+.user label {
+    display: block;
+}
+.kotak input {
+    padding-left: 20px;
+    display: block;
+}
+.login {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.pass label {
+    margin-top: 20px;
+    display: block;
+}
+.lupa-password {
+    text-decoration: none;
+}
